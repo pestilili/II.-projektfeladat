@@ -1,0 +1,19 @@
+cél: Iskolai webes eseménykezelő létrehozása.
+
+(minden tanár automatikusan admin)
+
+programrészek:
+- Tanár / diákként lépsz-e be (email cím alapú tesztelés: diak.szbi / szbi)
+- Tanárként:
+	- új esemény létrehozása
+	- meglévő események törlése, módosítása, szűrése, keresése
+	- függőben lévő események kezelése 
+	- jelentkezés eseményekre (szervező/résztvevőként)
+- Diákként:
+	- új esemény létrehozása (min 1 tanár elfogadásával)
+	- meglévő események szűrése, keresése
+	- jelentkezés eseményekre
+	- saját események módosítása, törlése (tanári jóváhagyás újra)
+
+általános mind2nek:
+- téma módosítása
