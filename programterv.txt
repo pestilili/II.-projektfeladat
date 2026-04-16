@@ -17,3 +17,19 @@ programrészek:
 
 általános mind2nek:
 - téma módosítása
+
+adatbázis szerkezete:
+
+emberek:
+ -név 
+ -email cím   
+ -telefonszám  (kulcs)
+ -tanár/diák
+ -esemény id (idegen kulcs)
+ 
+események:
+ -név
+ -időpont
+ -id kulcs
+ -leírás
+ -kategória
