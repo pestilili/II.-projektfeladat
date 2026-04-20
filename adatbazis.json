@@ -13,6 +13,174 @@
         "telefonszam": "+3611111112",
         "szerep": "user",
         "sorszam": ""
+    },
+    {
+        "nev": "Tóth László",
+        "email": "laszlo3@email.hu",
+        "telefonszam": "+3611111113",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Szabó Éva",
+        "email": "eva4@email.hu",
+        "telefonszam": "+3611111114",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Kovács Gábor",
+        "email": "gabor5@email.hu",
+        "telefonszam": "+3611111115",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Molnár Zoltán",
+        "email": "zoltan6@email.hu",
+        "telefonszam": "+3611111116",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Varga Júlia",
+        "email": "julia7@email.hu",
+        "telefonszam": "+3611111117",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Horváth Tamás",
+        "email": "tamas8@email.hu",
+        "telefonszam": "+3611111118",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Balogh Dóra",
+        "email": "dora9@email.hu",
+        "telefonszam": "+3611111119",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Papp András",
+        "email": "andras10@email.hu",
+        "telefonszam": "+3611111120",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Farkas Krisztina",
+        "email": "kriszti11@email.hu",
+        "telefonszam": "+3611111121",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Takács Márk",
+        "email": "mark12@email.hu",
+        "telefonszam": "+3611111122",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Juhász Rita",
+        "email": "rita13@email.hu",
+        "telefonszam": "+3611111123",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Mészáros Bence",
+        "email": "bence14@email.hu",
+        "telefonszam": "+3611111124",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Oláh Noémi",
+        "email": "noemi15@email.hu",
+        "telefonszam": "+3611111125",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Simon Ádám",
+        "email": "adam16@email.hu",
+        "telefonszam": "+3611111126",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Lakatos Eszter",
+        "email": "eszter17@email.hu",
+        "telefonszam": "+3611111127",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Németh Dávid",
+        "email": "david18@email.hu",
+        "telefonszam": "+3611111128",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Szalai Kata",
+        "email": "kata19@email.hu",
+        "telefonszam": "+3611111129",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Veres Bálint",
+        "email": "balint20@email.hu",
+        "telefonszam": "+3611111130",
+        "szerep": "user",
+        "sorszam": ""
     }
-]
+],
+    "esemenyek": [
+        {
+            "nev": "Konferencia",
+            "idopont": "2026-05-10",
+            "id": "1",
+            "leiras": "Nemzetközi tech konferencia",
+            "kategoria": "Technológia",
+            "sorszam": ""
+        },
+        {
+            "nev": "Workshop",
+            "idopont": "2026-06-15",
+            "id": "2",
+            "leiras": "Haladó SQL workshop",
+            "kategoria": "Oktatás",
+            "sorszam": ""
+        },
+        {
+            "nev": "Fesztivál",
+            "idopont": "2026-07-20",
+            "id": "3",
+            "leiras": "Nyári zenei fesztivál",
+            "kategoria": "Zene",
+            "sorszam": ""
+        },
+        {
+            "nev": "Találkozó",
+            "idopont": "2026-08-05",
+            "id": "4",
+            "leiras": "Startup üzleti találkozó",
+            "kategoria": "Üzlet",
+            "sorszam": ""
+        },
+        {
+           "nev": "Sportnap",
+            "idopont": "2026-09-01",
+            "id": "5",
+            "leiras": "Céges sportnap és versenyek",
+            "kategoria": "Sport",
+            "sorszam": ""
+        }
+    ]
 }
