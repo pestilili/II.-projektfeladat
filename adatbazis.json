@@ -1,5 +1,18 @@
 {
 "emberek":[
-    "nev"
+    {
+        "nev": "Kiss Péter",
+        "email": "peter1@email.hu",
+        "telefonszam": "+3611111111",
+        "szerep": "user",
+        "sorszam": ""
+    },
+    {
+        "nev": "Nagy Anna",
+        "email": "anna2@email.hu",
+        "telefonszam": "+3611111112",
+        "szerep": "user",
+        "sorszam": ""
+    }
 ]
 }
