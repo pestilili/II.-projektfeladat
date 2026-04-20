@@ -182,5 +182,131 @@
             "kategoria": "Sport",
             "sorszam": ""
         }
+    ],
+    "kapcsolo": [
+        {
+            "telefonszam": "+3611111111",
+            "id": "1",
+            "szerep": "1",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111112",
+            "id": "1",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111113",
+            "id": "1",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111114",
+            "id": "2",
+            "szerep": "1",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111115",
+            "id": "2",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111116",
+            "id": "2",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111117",
+            "id": "3",
+            "szerep": "1",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111118",
+            "id": "3",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111119",
+            "id": "3",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111120",
+            "id": "4",
+            "szerep": "1",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111121",
+            "id": "",
+            "szerep": "4",
+            "sorszam" :"0"
+        },
+        {
+            "telefonszam": "+3611111122",
+            "id": "4",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+
+        },
+        {
+            "telefonszam": "+3611111123",
+            "id": "5",
+            "szerep": "1",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111124",
+            "id": "5",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111125",
+            "id": "5",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111126",
+            "id": "1",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111127",
+            "id": "2",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111128",
+            "id": "3",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111129",
+            "id": "4",
+            "szerep": "0",
+            "sorszam" :""
+        },
+        {
+            "telefonszam": "+3611111130",
+            "id": "5",
+            "szerep": "0",
+            "sorszam" :""
+        }
     ]
+    
 }
