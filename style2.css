@@ -1,0 +1,57 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#container{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "esemeny1 esemeny2 esemeny3 esemeny4"
+        "esemeny5 esemeny6 esemeny7 esemeny8"
+        "esemeny9 esemeny10 esemeny11 esemeny12";
+    row-gap: 5%;
+    column-gap: 2%; 
+}
+
+#esemeny1{
+    grid-area: esemeny1;
+}
+
+#esemeny2{
+    grid-area: esemeny2;
+}
+
+#esemeny3{
+    grid-area: esemeny3;
+}
+
+#esemeny4{
+    grid-area: esemeny4;
+}
+
+#esemeny5{
+    grid-area: esemeny5;
+}
+
+#esemeny6{
+    grid-area: esemeny6;
+}
+
+#esemeny7{
+    grid-area: esemeny7;
+}
+
+#esemeny8{
+    grid-area: esemeny8;
+}
+
+#container div{
+    background-color: blueviolet;
+    height: 300px;
+    width: 22,5%;
+    border-radius: 8px;
+}
