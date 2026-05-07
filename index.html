@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div>
+    <div>
+        <video autoplay muted loop id="video">
+            <source src="video.webm" type="video/webm">
+        </video>
+    </div>
+
     <div id="bejelentkezes">
         <form action="esemeny.html" method="get">
             <label for="nev">Név: </label>
             <input type="text" name="" id="nev"> <br>
             <label for="email" id="mail">Email cím: </label>
-            <label for="email" id="gmail"><select name="" id="jogosultsag"> 
-  <option value="diak">@diak.szbi-pg.hu</option>
-  <option value="tanar">@szbi-pg.hu</option>
-</select></label>
+            <label for="email" id="gmail">@gmail.com</label>
             <input type="email" name="" id="email"> <br> <br>
-            <button type="submit">Bejelentkezés</button>  
+            <button type="submit">Bejelentkezés</button> 
         </form>
     </div>
+</div>
+
 </body>
 </html>
-
