@@ -67,3 +67,23 @@ body{
     object-fit: cover;
     filter: blur(15px);
 }
+
+#hozzaadas{
+    border-radius: 50px;
+    background-color: rgb(54, 54, 90);
+    color: rgb(255, 255, 255);
+    margin-left: 190vh;
+    margin-bottom: 20vh;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    z-index: 2;
+    overflow: hidden;
+
+}
+
+#hozzaadas h1{
+    text-align: center;
+    font-size: 6em;
+    transform: translateY(-40%);
+}
