@@ -2,23 +2,25 @@ body{
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     user-select: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #bejelentkezes{
-    background-image: url(calendarBG.png);
-    background-size: 30%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    background-position: 50% 50%;
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    user-select: none;
 }
 
 form{
     margin: auto;
     width: max-content;
     height: max-content;
-    padding-top: 50vh;
 }
 
 form input{
@@ -44,7 +46,7 @@ form input{
 
 
 #seasons{
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     z-index: -1;
@@ -52,5 +54,4 @@ form input{
     height: 100%;
     object-fit: cover;
 }
-
 
