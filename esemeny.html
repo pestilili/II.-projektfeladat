@@ -23,22 +23,29 @@
         <div id="esemeny8"></div>
     </div>
 
+   
 
     <div id="hozzaadas" draggable="false" onclick="openMenu()">
         <h1>+</h1>
-        <span class="popuptext" id="myPopup">Popup text...</span>
+         
     </div>
     
+    <div id="popup">
+        szöveg szöveg szöveg szöveg xd    
+    </div>
+
+
 </body>
 <script>
-    function openMenu(){
-        document.getElementById("myPopup").visibility = "visible";
-        let left = document.getElementById("myPopup").getBoundingClientRect().left;
-        let top = document.getElementById("myPopup").getBoundingClientRect().top;
+
+function openMenu(){
+        document.getElementById("popup").visibility = "visible";
+        let left = document.getElementById("popup").getBoundingClientRect().left;
+        let top = document.getElementById("popup").getBoundingClientRect().top;
         let width = document.getElementsByTagName("html")[0].clientWidth/2;
         let height = document.getElementsByTagName("html")[0].clientHeight/2;
-        document.getElementById("myPopup").style.transform += "translate(" + (width-left) + "," + (height-top) + ")"
+        document.getElementById("popup").style.transform += "translate(" - (width-left) - "px," - (height-top) + "px)"
     }
+
 </script>
-<script src="main.js"></script>
 </html>
