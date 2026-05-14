@@ -24,11 +24,21 @@
     </div>
 
 
-    <div id="hozzaadas" draggable="false" onclick="document.getElementById('myPopup').visibility = 'visible'">
+    <div id="hozzaadas" draggable="false" onclick="openMenu()">
         <h1>+</h1>
         <span class="popuptext" id="myPopup">Popup text...</span>
     </div>
     
 </body>
+<script>
+    function openMenu(){
+        document.getElementById("myPopup").visibility = "visible";
+        let left = document.getElementById("myPopup").getBoundingClientRect().left;
+        let top = document.getElementById("myPopup").getBoundingClientRect().top;
+        let width = document.getElementsByTagName("html")[0].clientWidth/2;
+        let height = document.getElementsByTagName("html")[0].clientHeight/2;
+        document.getElementById("myPopup").style.transform += "translate(" + (width-left) + "," + (height-top) + ")"
+    }
+</script>
 <script src="main.js"></script>
 </html>
