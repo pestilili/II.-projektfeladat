@@ -80,11 +80,49 @@ body{
     position: fixed;
     z-index: 2;
     overflow: hidden;
+}
 
+#hozzaadas:hover{
+    cursor: pointer;
+    width: 160px;
+    height: 160px;
 }
 
 #hozzaadas h1{
     text-align: center;
     font-size: 6em;
     transform: translateY(-40%);
+}
+
+#esemeny1:hover{
+    height: 310px;
+    opacity: 100;
+}
+#esemeny2:hover{
+    height: 310px;
+    opacity: 100;
+}
+#esemeny3:hover{
+    height: 310px;
+    opacity: 100;
+}
+#esemeny4:hover{
+    height: 310px;
+    opacity: 100;
+}
+#esemeny5:hover{
+    height: 310px;
+    opacity: 100;
+}
+#esemeny6:hover{
+    height: 310px;
+    opacity: 100;
+}
+#esemeny7:hover{
+    height: 310px;
+    opacity: 100;
+}
+#esemeny8:hover{
+    height: 310px;
+    opacity: 100;
 }
