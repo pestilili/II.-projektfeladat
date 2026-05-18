@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eseménykezelő</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="Calendar">
+        <source src="Calendar.mp4" type="video/mp4">
+    </video>
+
+    <div id="container">
+        <div id="esemeny1"> <div class="modositas" onclick="modositasMegjelenit(1)"></div> <div class="torles"></div> </div>
+        <div id="esemeny2"> <div class="modositas" onclick="modositasMegjelenit(2)"></div> <div class="torles"></div> </div>
+        <div id="esemeny3"> <div class="modositas" onclick="modositasMegjelenit(3)"></div> <div class="torles"></div> </div>
+        <div id="esemeny4"> <div class="modositas" onclick="modositasMegjelenit(4)"></div> <div class="torles"></div> </div>
+        <div id="esemeny5"> <div class="modositas" onclick="modositasMegjelenit(5)"></div> <div class="torles"></div> </div>
+        <div id="esemeny6"> <div class="modositas" onclick="modositasMegjelenit(6)"></div> <div class="torles"></div> </div>
+        <div id="esemeny7"> <div class="modositas" onclick="modositasMegjelenit(7)"></div> <div class="torles"></div> </div>
+        <div id="esemeny8"> <div class="modositas" onclick="modositasMegjelenit(8)"></div> <div class="torles"></div> </div>
+    </div>
+
+    <div id="hozzaadas" draggable="false" onclick="hozzaadasMegjelenit()"><h1>+</h1></div>
+
+    
+    <div id="hozzaadasMenu">
+        <h1>Esemény</h1>
+        <form>
+            <label for="nev">Esemény neve:</label>
+            <input type="text" id="nev" name="nev" required>
+            <br>
+            <label for="ido">Esemény időpontja:</label>
+            <input type="date" id="ido" name="ido" required>
+            <br>
+            <label for="desc">Esemény leírása:</label> <br>
+            <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+            <br>
+            <label for="categ">Esemény kategória:</label>
+            <select name="categ" id="categ">
+                <option value="Technológia">Technológia</option>
+                <option value="Oktatás">Oktatás</option>
+                <option value="Zene">Zene</option>
+                <option value="Üzlet">Üzlet</option>
+                <option value="Sport">Sport</option>
+                <option value="Szórakozás">Szórakozás</option>
+                <option value="Egyéb" selected>Egyéb</option>
+            </select>
+            <br>
+            <button type="submit" id="hozzaadasButton">Mentés</button>
+        </form>
+    </div>
+</body>
+<script src="main.js"></script>
+<script>
+    function hozzaadasMegjelenit(){
+        document.getElementById("hozzaadasMenu").style.display = "initial";
+        let elemek = document.querySelectorAll("div:not(#hozzaadasMenu, #hozzaadasMenu *)");
+        elemek.forEach(element => {
+            element.style.filter = "blur(3px)"
+        });
+
+        let date = new Date();
+
+        let year = date.getUTCFullYear();
+
+        let month = date.getUTCMonth() + 1;
+        let month_kiirando = ("0" + month).slice(-2);
+
+        let day = date.getUTCDate();
+        let day_kiirando = ("0" + day).slice(-2);
+
+        document.getElementById("ido").value = year + "-" + month_kiirando + "-" + day_kiirando;
+    }
+
+    function modositasMegjelenit(key) {
+        document.getElementById("hozzaadasMenu").style.display = "initial";
+        let elemek = document.querySelectorAll("div:not(#hozzaadasMenu, #hozzaadasMenu *)");
+        elemek.forEach(element => {
+            element.style.filter = "blur(3px)"
+        });
+
+        let esemeny = JSON.parse(localStorage.getItem("user"))[key];
+
+        document.getElementById("nev").value = esemeny.nev;
+        document.getElementById("ido").value = esemeny.idopont;
+        document.getElementById("desc").value = esemeny.leiras;
+        document.getElementById("categ").value = esemeny.kategoria;
+
+        localStorage.setItem("mode", "modositas"+key);
+    }
+</script>
+</html>

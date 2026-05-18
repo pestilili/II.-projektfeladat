@@ -1,0 +1,121 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    user-select: none;
+}
+
+#container{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "esemeny1 esemeny2 esemeny3 esemeny4"
+        "esemeny5 esemeny6 esemeny7 esemeny8"
+        "esemeny9 esemeny10 esemeny11 esemeny12";
+    row-gap: 5%;
+    column-gap: 2%; 
+}
+
+#esemeny1{
+    grid-area: esemeny1;
+}
+
+#esemeny2{
+    grid-area: esemeny2;
+}
+
+#esemeny3{
+    grid-area: esemeny3;
+}
+
+#esemeny4{
+    grid-area: esemeny4;
+}
+
+#esemeny5{
+    grid-area: esemeny5;
+}
+
+#esemeny6{
+    grid-area: esemeny6;
+}
+
+#esemeny7{
+    grid-area: esemeny7;
+}
+
+#esemeny8{
+    grid-area: esemeny8;
+}
+
+#container>div{
+    background-color: darkgrey;
+    opacity: 60%;
+    height: 300px;
+    width: 22,5%;
+    border-radius: 8px;
+}
+
+#Calendar{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(15px);
+}
+
+#hozzaadas{
+    border-radius: 50px;
+    background-color: rgb(54, 54, 90);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    overflow: hidden;
+    bottom: 5vh;
+    right: 5vw;
+}
+
+#hozzaadas h1{
+    text-align: center;
+    font-size: 6em;
+    transform: translateY(-40%);
+}
+
+#hozzaadasMenu{
+    background-color: grey;
+    border-radius: 20px;
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    left: 25vw;
+    top: 0vh;
+    display: none;
+}
+/*
+div:not(#hozzaadasMenu, #hozzaadasMenu *){
+    // <elem> * azt jelenti, hogy minden az <elem> - en belül
+    filter: blur(3px);
+}
+*/
+
+.modositas, .torles{
+    width: 10%;
+    height: 10%;
+    float: right;
+}
+
+.modositas{
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.torles{
+    background-color: red;
+    border-radius: 10px;
+}

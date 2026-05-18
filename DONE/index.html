@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bejelentkezés - eseménykezelő</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div>
+    <div>
+        <video autoplay muted loop id="seasons">
+            <source src="seasons.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="bejelentkezes">
+        <form action="esemeny.html" method="get">
+            <label for="nev">Név: </label>
+            <input type="text" name="nev" id="nev"> <br>
+            <label for="email" id="mail">Email cím: </label>
+            <label for="email" id="gmail"></label>
+            <select name="jog" id="jogosultsag"> 
+                <option value="diak">@diak.szbi-pg.hu</option>
+                <option value="tanar">@szbi-pg.hu</option>
+            </select>
+            <input type="text" name="email" id="email"> <br> <br>
+            <button type="submit">Bejelentkezés</button> 
+        </form>
+    </div>
+</div>
+</body>
+</html>
